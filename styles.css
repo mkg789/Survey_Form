@@ -55,6 +55,12 @@
       height:3em;
       width:20em;
     }
+    .black{
+      background-color:rgb(255,255,255,0.7);
+      max-width:70%;
+      height: 100%;
+      margin:0 auto;
+    }
     .left{
     text-align:left;
     margin-left:4em;
