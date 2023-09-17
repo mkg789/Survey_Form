@@ -1,0 +1,45 @@
+<DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css" />
+      </head>
+      <body>
+        <div class ="black">
+          <div>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">A Survey form for our improvement</p>
+        <form id="survey-form">
+          <label id="name-label" for="name" class="left">Name: </label>
+          <input id="name" type="text" placeholder="Enter your name" name="name" class="inp" required></input>
+          <label id="email-label" for="email" class="left">Email: </label>
+          <input id="email" type="email" placeholder="Enter your email" class="inp" required></input>
+          <label id="number-label"for="number" class="left">Age: </label>
+          <input id="number" type="number" min="1" max="120" placeholder="eg:12" class="inp" />
+          <label for="dropdown" class="left">You are: </label>
+          <select id="dropdown">
+              <option>Student</option>
+              <option>job-seeker</option>
+              <option>working proffesional</option>
+            </select>
+            
+          <p class="gen left">Gender</p>
+          <label for="male" class="left"><input type="radio" name="Gender" id="male" value="Male">Male</input></label>
+            <label for="female" class="left"><input type="radio" name="Gender" id="female" value="female">Female</input></label>
+            <label for="other" class="left"><input type="radio" name="Gender" id="other" value="other">Other</input></label>
+          <p class="gen left">Where should I improve: 
+          </p>
+          <label for="coding" class="left"><input type="checkbox" value="coding" id="coding"/>Coding</label>
+            <label for="aptitude" class="left"><input type="checkbox" value="Aptitude" id="aptitude"/>Aptitude</label>
+            <label for="communication" class="left"><input type="checkbox" value="communication" id="communication"/>Communication</label>
+            <label for="Presentation" class="left"><input type="checkbox" value="Presentation" id="Presentation"/>Presentation</label>
+            <label for="Confidence" class="left"><input type="checkbox" value="Confidence" id="Confidence"/>Confidence</label>
+          <label for="comments" class="left">Any suggestions or comments
+          </label>
+          <textarea id="comments"></textarea>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+        </div>
+        </div>
+      </body>

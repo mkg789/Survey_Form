@@ -1,0 +1,67 @@
+*{
+    text-align:center;
+    
+  }
+  label{
+    display:block;
+  }
+  h1{
+    text-align:center;
+    margin:-1;
+    font-size:5rem;
+  }
+  body{
+    padding:10px;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    background-image:url('https://th.bing.com/th/id/R.acf46a2a0a49efdd90711777072bd078?rik=pvgTaQhM5OAo7Q&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2016%2f03%2fWater-wallpaper-47-1.jpg&ehk=BOzlrykaXQgYivcZl3DX3gZKt4xQV8q8jJaBhXAhZMo%3d&risl=&pid=ImgRaw&r=0');
+  }
+  button{
+    display:block;
+    margin-top:10px;
+  }
+  select,.inp,textarea{
+    height:4em;
+    width:45em;
+    border-radius:20px;
+  }
+  .gen{
+    margin-bottom:1px;
+  }
+  .black{
+    background-color:rgb(255,255,255,0.7);
+    max-width:70%;
+    margin:0 auto;
+  }
+  .left{
+    text-align:left;
+    margin-left:4em;
+    padding-left:10px;
+  }
+  #submit{
+    margin:10px auto;
+    font-size:20px;
+    border-radius:10px;
+    background-color:white;
+  }
+  @media (max-width:650px){
+    h1{
+      font-size:3.5rem;
+    }
+    select,.inp,textarea{
+      height:3em;
+      width:20em;
+    }
+    .left{
+    text-align:left;
+    margin-left:4em;
+    padding-left:10px;
+  }
+  }
+  @media (min-width:1100px){
+    .left{
+    text-align:left;
+    margin-left:10em;
+    padding-left:4em;
+  }
+  }
